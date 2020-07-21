@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="Webserver_Logo.png" rel="shortcut icon" type="image/x-icon" />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <script src="rss-parser/dist/rss-parser.min.js"></script>
-    <script src="stuff.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet'>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href="./images/Webserver_Logo.png" rel="shortcut icon" type="image/x-icon" />
+    <script src="./js/main.js"></script>
+    <script src="./js/rss-parser.min.js"></script>
+    
 </head>
 
 <body>
     <nav>
-        <h1>adrsrv@home: / #</h1>
+        <h1>uppercenter@ymir: /</h1>
         <ul class="a">
             <div class="bookmark-in">
                 <li>Daily</li>
@@ -49,15 +50,17 @@
     </nav>
 
     <div class="rss1" id='rss1' style="display: none;">
-        <p class="w3-text-white"><span id="rss_title"></span></p>
+        <!-- <p class="w3-text-white"><span id="rss_title"></span></p>
         <p class="w3-text-white"><span id="rss_content"></span></p>
         <p class="w3-text-white"><span id="rss_time"></span></p>
+        I know this is a get out of jail free card but I'm tired. -->
+        <script src="//rss.bloople.net/?url=https%3A%2F%2Farstechnica.com%2Ffeed%2F&detail=1000&fixbugs=true&type=js"></script>
     </div>
 
     <div class="img_and_toggle">
-        <p class="button_theme" onclick="darklight()">theme</p>
-        <img src="pineapple-supply-co-jIU6rQccJAU-unsplash.jpg">
-        <p class="button" onclick="showrss()">rss</p>
+        <p class="button_theme" onclick="darklight()">Colour</p>
+        <img src="./images/pineapple-supply-co-jIU6rQccJAU-unsplash.jpg">
+        <p class="button" onclick="showrss()">RSS</p>
     </div>
 </body>
 </html>

@@ -49,6 +49,8 @@ document.getElementById('rss1').style.display = '';
     }
 });
 
+/*
+I like this, but it ain't working and there are other solutions
 function rss() {
     // Note: some RSS feeds can't be loaded in the browser due to CORS security.
     // To get around this, you can use a proxy.
@@ -69,6 +71,7 @@ function rss() {
     setTimeout(rss,30000);
 }
 rss();
+*/
 
 document.addEventListener("keydown", event => {
     if (event.keyCode == 32) {          // Spacebar code to open search

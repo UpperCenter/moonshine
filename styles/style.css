@@ -1,8 +1,3 @@
-@font-face {
-    font-family: gidole;
-    src: url(Gidole-Regular.otf);
-}
-
 :root {
     --bg: #ffffff /*#303435*/;
     --fg: #272727;
@@ -20,7 +15,7 @@ html {
     color: var(--fg);
     background-color: var(--bg);
     display: flex;
-    font: 22px "Times New Roman", Courier, monospace;
+    font: 22px "Roboto Mono", Courier, monospace;
     height: 100%;
     justify-content: center;
     margin: 0;
@@ -46,7 +41,7 @@ a {
 }
 
 a:focus, a:hover {
-    color: var(--linkhov);
+    color: #0d91dd;
 }
 
 nav {
@@ -141,12 +136,12 @@ li:first-child {
 .rss_text {
     color: var(--fg);
     line-height: 100%;
-    font: 18px "Times New Roman", Courier, monospace;
+    font: 18px "Roboto Mono", Courier, monospace;
 }
 
 .rss_time {
     color: var(--fg);
     line-height: 100%;
     display: none;
-    font: 13px "Times New Roman", Courier, monospace;
+    font: 13px "Roboto Mono", Courier, monospace;
 }
